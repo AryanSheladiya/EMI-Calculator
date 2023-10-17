@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">EMI Calculator</string>
+
+    <string name="TextView_1">Loan EMI Calculator</string>
+
+    <string name="TextView_2">EMI Calculator</string>
+
+    <string name="TextView_3">Finance Calculator</string>
+
+    <string name="TextView_4">Banks Finder</string>
+
+    <string name="TextView_5">Principal Amount</string>
+
+    <string name="TextView_6">Interest</string>
+
+    <string name="TextView_7">Loan Tenure</string>
+
+    <string name="TextView_8">EMI</string>
+
+    <string name="TextView_9">Investment Amount</string>
+
+    <string name="TextView_10">Expected Rate Of Interest</string>
+
+    <string name="TextView_11">Tenure</string>
+
+    <string name="TextView_12">Maturity Value</string>
+
+    <string name="TextView_13">RD Calculator</string>
+
+    <string name="TextView_14">Tax Calculator</string>
+
+    <string name="TextView_15">Amount</string>
+
+    <string name="TextView_16">Total Amount</string>
+
+    <string name="TextView_17">Rate Of Tax</string>
+
+    <string name="TextView_18">Currency Of The Amount</string>
+
+    <string name="TextView_19">Convert Amount</string>
+
+    <string name="TextView_20">DOLLAR($) --> IND(₹)</string>
+
+    <string name="TextView_21">PPF Calculator</string>
+
+    <string name="hint_1">Enter Your Principal Amount</string>
+
+    <string name="hint_2">Max 30 Month</string>
+
+    <string name="hint_3">Max 50% Per Annum</string>
+
+    <string name="hint_4">Multiples Of 3 Months</string>
+
+    <string name="hint_5">Enter Your Amount</string>
+
+    <string name="hint_6">Max 50%</string>
+
+    <string name="hint_7">Multiples Of 30 Months</string>
+
+    <string name="hint_8">Multiples Of 15 Months</string>
+
+    <string name="Button_1">Calculate</string>
+
+    <string name="Button_2">Clear</string>
+</resources>

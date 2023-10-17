@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Currency_ConversionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="3"
+        android:background="#6B9AFF"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/TextView_14"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/history" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TextView_15"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_amount"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+        android:background="@drawable/darkbox"
+        android:hint="@string/hint_5"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TextView_18"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/darkbox"
+        android:hint="@string/TextView_20"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:id="@+id/btn_calculate"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="@string/Button_1"
+            android:backgroundTint="#6B9AFF"
+            android:layout_weight="1"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#6B9AFF"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Button_2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TextView_19"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/text_convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/darkbox"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
